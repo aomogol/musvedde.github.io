@@ -1,7 +1,7 @@
 baseURL = "https://musved.de"
 languageCode = "en-us"
 title = "Müsvedde - Adı üstünde"
-theme = "PaperMod"
+theme = "northendlab"
 # post pagination
 paginate = "10"
 # post excerpt
@@ -26,7 +26,7 @@ home = ["HTML", "AMP", "RSS", "JSON"]
       lineNumbersInTable = false
       tabWidth = 4
       noClasses = false
-	  
+
 copyright = "© 2023 -  Ahmet Önder Moğol"
 
 pygmentsstyle = "vs"
