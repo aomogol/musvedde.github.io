@@ -1,7 +1,7 @@
-baseURL = "https://aomogol.github.io/musvedde.github.io"
+baseURL = "https://musvedde.github.io"
 languageCode = "en-us"
 title = "Müsvedde - Adı üstünde"
-theme = "PaperMod"
+theme = "hugo-ink"
 paginate = 5
 
 copyright = "© Copyright Ahmet Onder Mogol"

@@ -5,3 +5,4 @@ draft: false
 ---
 
 Hi
+![](/images/istanbuldive_yeni.png)
