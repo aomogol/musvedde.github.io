@@ -31,3 +31,4 @@ Bunu hatırlamak zor ise bir alias oluşturarak yapabilirsiniz.
 Ancak kişisel kullanımlar için basit olan curl ifconfig.co komutuda işinizi görecektir.
 
 
+![](/images/istanbuldive_yeni.png)
