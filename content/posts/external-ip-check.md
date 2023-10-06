@@ -4,7 +4,7 @@ date: 2023-10-06
 author: Ahmet Önder Moğol
 
 url: /check-external-ip/
-image: images/2023/10/ipaddress.png
+featured_image: images/2023/10/ipaddress.png
 categories:
   - Linux
 
