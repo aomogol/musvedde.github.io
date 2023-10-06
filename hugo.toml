@@ -1,7 +1,7 @@
 baseURL = "https://musved.de"
 languageCode = "en-us"
 title = "Müsvedde - Adı üstünde"
-theme = "northendlab"
+theme = "PaperMod"
 # post pagination
 paginate = "10"
 # post excerpt
