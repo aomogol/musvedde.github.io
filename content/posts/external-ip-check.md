@@ -1,27 +1,28 @@
 ---
-title: Linux sistemlerde dış IP'yi konsoldan sorgulama
+title: "Linux sistemlerde dış IP'yi konsoldan sorgulama"
+date: 2023-10-06
 author: Ahmet Önder Moğol
 
-date: 2023-10-06T18:33:12+00:00
 url: /check-external-ip/
-image: images/2023/10/ipaddress.jpg
+image: images/2023/10/ipaddress.png
 categories:
   - Linux
 
+tags: [Linux, IP]  
 ---
 Aşağıda ki komutlar herhangi bir Linux sistemi için Linux Terminalinde harici IP'yi kontrol etmenize yardımcı olur.<!--more-->
 
 ### Komutlar
 
-##### Dış IP için
+##### Dış IP için sorgu
 
 `curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//'`
 
-##### Hatırlaması Basit ve Kısa
+##### Hatırlaması Basit ve Kısa olan yöntem
 
 `curl ifconfig.co`
 
-##### Güvenlik kaygısı olanlar için curl kullanmadan
+##### Güvenlik kaygısı olanlar için curl kullanmadan yapılan sorgu
 
 `dig TXT +short o-o.myaddr.l.google.com @ns1.google.com | awk -F'"' '{ print $2}'`
 
@@ -30,5 +31,5 @@ Bu komutlardan hepsi aynı sonuca ulaşacaktır, bu nedenle istediğinizi seçeb
 Bunu hatırlamak zor ise bir alias oluşturarak yapabilirsiniz.
 Ancak kişisel kullanımlar için basit olan curl ifconfig.co komutuda işinizi görecektir.
 
+![](/images/2023/10/ipaddress.png)
 
-![](/images/istanbuldive_yeni.png)
