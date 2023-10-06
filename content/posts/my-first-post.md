@@ -2,6 +2,8 @@
 title: "My First Post"
 date: 2023-10-06T02:00:31+03:00
 tags: [Linux, IP]
+url: /check-external-ip/
+image: images/2023/10/ipaddress.jpg
 categories:
   - Linux
 ---
@@ -25,6 +27,8 @@ Bu komutlardan hepsi aynı sonuca ulaşacaktır, bu nedenle istediğinizi seçeb
 İş ve profesyonel ortamlarda kullanmak için dig ile sorgulamak daha güven verir. 
 Bunu hatırlamak zor ise bir alias oluşturarak yapabilirsiniz.
 Ancak kişisel kullanımlar için basit olan curl ifconfig.co komutuda işinizi görecektir.
+
+![pr](/images/2023/10/ipaddress.png)
 
 
 ![](/images/istanbuldive_yeni.png)
