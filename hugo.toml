@@ -1,4 +1,4 @@
-baseURL = "https://musvedde.github.io"
+baseURL = "https://musvedde-github-io.pages.dev"
 languageCode = "en-us"
 title = "Müsvedde - Adı üstünde"
 theme = "hugo-ink"
