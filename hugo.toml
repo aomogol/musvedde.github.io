@@ -1,7 +1,7 @@
 baseURL = "https://musved.de"
 languageCode = "en-us"
 title = "Müsvedde - Adı üstünde"
-theme = "hugo-ink"
+theme = "PaperMod"
 paginate = 5
 
 copyright = "© Copyright Ahmet Onder Mogol"
