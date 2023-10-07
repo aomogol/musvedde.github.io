@@ -1,0 +1,11 @@
+{
+    "name": "Ahmet Önder Moğol",
+    "image" : "img/aom1.jpg",
+    "bio": "Fani...",
+    "social": [
+        { "linkedin": "https://linkedin.com/in/aomogol" },
+        { "twitter": "https://twitter.com/aomogol" },
+        { "instagram": "https://instagram.com/aomogol" },
+        { "github": "https://github.com/aomogol" }
+    ]
+}
