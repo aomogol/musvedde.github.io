@@ -10,9 +10,7 @@ tags: [Linux, Networking]
 ---
 
 
-# Yeni Linux Kullanıcılarının Yaptığı En Önemli 10 Hata
-
-Linux, Windows veya macOS kullanıcıları için ilginç bir deneyim olabilir. Temel bazı farklılıklar kafa karıştırıcı olabilir. 
+Linux, Windows veya macOS kullanıcıları için ilginç bir deneyim olabilir. Temel bazı farklılıklar kafa karıştırıcı olabilir.
 
 Ama genel olarak gördüğüm Linux deneyimine yeni başlayanların kullanmanın zor olduğunu düşündüren bazı hatalar yaparlar. Ancak yeni Linux kullanıcıları, bazı süpriz kullanıcı deneyimi yaşatan şeyler yaşayabilirler.
 
@@ -56,7 +54,7 @@ Peki, bu Linux mu? Hem evet hem hayır.
 
 Linux'a yeni başladığınızda, bunalmak kolaydır.
 
-Muhtemelen sadece Windows kullandınız, ancak şimdi Linux kullanmak istiyorsunuz çünkü Linux'un Windows'tan daha iyi olduğunu, daha güvenli olduğunu ve Linux kullanmak için **lisans satın almanız gerekmediğini** okudunuz. 
+Muhtemelen sadece Windows kullandınız, ancak şimdi Linux kullanmak istiyorsunuz çünkü Linux'un Windows'tan daha iyi olduğunu, daha güvenli olduğunu ve Linux kullanmak için **lisans satın almanız gerekmediğini** okudunuz.
 
 Ancak daha sonra Linux'u indirmeye ve kurmaya başladığınızda, Linux'un tek bir kavram olmadığını öğreniyorsunuz. ***Debian, Arch, Ubuntu, Fedora, Linux Mint, elementary*** ve yüzlerce başka **'Linux dağıtımı'** var. Sorun şu ki, bazıları tıpkı diğerlerine benziyor.
 
@@ -64,7 +62,7 @@ Ancak daha sonra Linux'u indirmeye ve kurmaya başladığınızda, Linux'un tek 
 
 Ve sonra Linux'un bir işletim sistemi değil, sadece bir **kernel** (çekirdek) olduğunu da öğreniyorsunuz.
 
-![image](./cok-fazla-linux-surumu.webp)
+![image](cok-fazla-linux-surumu.jpg)
 
 Daha fazla derine girmeden devam edelim. Bu detayşarı ilerki zamanlarda daha fazla detaylandıracak konuları açarız.
 
@@ -88,7 +86,7 @@ Tabiki çok daha fazla seçenek var, ama bir ısınma turu atmanın zararı olma
 
 Eğer maceraperest hissediyorsanız ve deneyiminiz için iyi bir meydan okuma istiyorsanız, **Arch Linux** ya da **Fedora** seçebilirsiniz. Benim şahsi tercihim **ARCH Linux**.
 
-İleri düzey kullanıcılar için tasarlanmış dağıtımlardan herhangi birini seçmemelisiniz. Slackware, Void Linux, Gentoo gibi. Ama bir zaman gelecek onları da denemek isteyeceksiniz. 
+İleri düzey kullanıcılar için tasarlanmış dağıtımlardan herhangi birini seçmemelisiniz. Slackware, Void Linux, Gentoo gibi. Ama bir zaman gelecek onları da denemek isteyeceksiniz.
 
 Linux'un güzel ve ilginç yanı da budur. Sizi denemeye ve öğrenmeye teşvik eder. Kendinizi herzaman geliştirsiniz. Tabi amacınız bu ise.
 
@@ -110,7 +108,6 @@ Uygulamaların nasıl yükleneceği, uygulamaların nasıl kaldırılacağı ve 
 
 Mesele şu ki, bir konuda net değilseniz, sorunsuz bir deneyim için Linux'u kullanmaya başlamadan önce bu konuda bilgi edinin.
 
-
 ## 5. Windows Olmadığını Fark Etmek
 
 ![image](./linux-windows.jpg)
@@ -122,7 +119,6 @@ Eğer halihazırda başka bir platform kullanıyorsanız ve iş akışınızı y
 Elbette, Linux Windows'tan daha iyidir ve macOS'tan daha iyi birkaç şey yapar.
 
 Ancak, herkes için bir yedek değildir. Bu nedenle, bunu aklınızda tuttuktan sonra, Linux'ta çalışan şeyleri ve Windows ile yaptığınız şeylere potansiyel alternatifleri keşfetmeye başlayın.
-
 
 ## 6. Terminali Kullanmaktan Korkmak
 
@@ -136,19 +132,22 @@ Terminali kullanmanız her şeyi terminalde yapmanız gerektiği anlamına gelme
 
 Bazen birkaç komut kullanarak bir uygulama yüklemeniz gerekebilir; bazen de bir paketi kaldırmanız veya sistemi güncellemeniz gerekir.
 
-ARCHLinux kullanırken vereceğiniz 
+ARCHLinux kullanırken vereceğiniz
 
-`` sudo pacman -S firefox chromium google-chrome brave-bin``
+```console
+sudo pacman -S firefox chromium google-chrome brave-bin
+```
 
 komutunun tüm sıralı paketleri kurduğunu göreceksiniz. Dosya indir teker teker kur gibi zahmetler olmadan kolayca yapabildiğiniz göreceksiniz.
-Yine aynı şekilde istemediğiniz uygulamaları kaldırmak için sadece 
+Yine aynı şekilde istemediğiniz uygulamaları kaldırmak için sadece
 
-`` sudo pacman -R firefox``
+```console
+sudo pacman -R firefox
+```
 
-komutu ile firefox uygulamasını kaldırabilirsiniz. 
+komutu ile firefox uygulamasını kaldırabilirsiniz.
 
 Bir komutu terminale yazmadan önce ne işe yaradığını kontrol edin. Yıkıcı Linux komutlarının bir listesi, nelerden kaçınmanız gerektiğini anlatan yazımızı da en kısa zamanda yayınlayacağız.
-
 
 ## 7. Doğru Uygulamaları Bulamamak
 
@@ -156,14 +155,13 @@ Linux dağıtımları için mevcut olan uygulamalar, Windows ve macOS için mevc
 
 Bir başlangıç yapmak için masaüstü Linux kullanıcıları için temel uygulamalar listelerini de dağıtımlara özgün şekilde tanıtmaya çalışacağız..
 
-Yine Arch Linux örneği vermek gerekirse 
+Yine Arch Linux örneği vermek gerekirse
 
-`` sudo pacman -Ss discord``
+``sudo pacman -Ss discord``
 
 şeklinde bir komut ile discor paketinin var olup olmadığını görebilirim. Yada
 
-[ARCH Linux Packages](https://archlinux.org/packages/) sayfasından sorgulama yapmak da bir yöntem. 
-
+[ARCH Linux Packages](https://archlinux.org/packages/) sayfasından sorgulama yapmak da bir yöntem.
 
 ## 8. Dosya Uyumluluğuna Dikkat Edin
 
@@ -179,11 +177,11 @@ Kişisel kullanım için bu büyük bir sorun olmamalıdır. Ancak, diğer platf
 
 ![image](./linux-toplulugu.jpg)
 
-İnsanların Linux'u sevmesinin en önemli nedenlerinden biri topluluktur. Ama genelde bunu istemek ilk başlarda garip gelebilir. 
+İnsanların Linux'u sevmesinin en önemli nedenlerinden biri topluluktur. Ama genelde bunu istemek ilk başlarda garip gelebilir.
 
 Diğer platformların aksine, ne kullandığınızı tek bir teknoloji devi kontrol etmez. Bu nedenle, bir sorunla karşılaştığınızda veya bir şüpheniz olduğunda, Linux kullanıcıları topluluğu size yardımcı olmak için her zaman hazırdır.
 
-Ulaşabileceğiniz ve yardım isteyebileceğiniz birçok forumlar ve platformlar da vardır. Sadece kısacık bir araştırma ile kullanmaya karar verdiğiniz sürümün web sitesi üzerinden toplulukları kolayca keşfedebilirsiniz. 
+Ulaşabileceğiniz ve yardım isteyebileceğiniz birçok forumlar ve platformlar da vardır. Sadece kısacık bir araştırma ile kullanmaya karar verdiğiniz sürümün web sitesi üzerinden toplulukları kolayca keşfedebilirsiniz.
 
 Ben genelde Reddit başlıkları üzerinden takip ediyorum. Soruları ve sorunların çözüm şekillerini keşfedip kullanmak bir başka keyifli deneyim katıyor.
 
@@ -200,7 +198,6 @@ Ayrıca, bu sadece Linux ile sınırlı değildir; Windows/macOS sistemleri bile
 Bu nedenle, sabırlı olmalı ve kullanmaya veya terk etmeye karar vermeden önce birkaç sorunu gidermeye veya çözmeye çalışmalısınız.
 
 İşte sorun olduğunda Windows gibi sistemin patlamadığını görmek sizi şaşırtabilir. Bir Linux sistemi göçertmek gerçekten çok zordur. Tabi ne yaptığınız bilirseniz ve ya öğrenmeye niyetli iseniz.
-
 
 Linux karmaşık bir işletim sistemi değildir. Diğer tüm işletim sistemleri gibi, başlamadan önce öğrenmeniz gerekecektir.
 
