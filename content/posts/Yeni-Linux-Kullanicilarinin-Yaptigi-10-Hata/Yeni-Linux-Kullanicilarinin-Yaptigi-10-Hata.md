@@ -1,3 +1,15 @@
+---
+title: "Yeni Linux Kullanıcılarının Yaptığı En Önemli 10 Hata"
+date: 2023-11-08
+author: Ahmet Önder Moğol
+url: /Yeni-Linux-Kullanicilarinin-Yaptigi-10-Hata/
+#image: images/2023-thumbs/xxx.jpg
+categories:
+  - Linux
+tags: [Linux, Networking]  
+---
+
+
 # Yeni Linux Kullanıcılarının Yaptığı En Önemli 10 Hata
 
 Linux, Windows veya macOS kullanıcıları için ilginç bir deneyim olabilir. Temel bazı farklılıklar kafa karıştırıcı olabilir. 
