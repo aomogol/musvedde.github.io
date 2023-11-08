@@ -45,12 +45,12 @@
 [[main]]
   name = "Katagoriler"
   pageRef = "categories"
-  weight = 20
+  weight = 30
 
 [[main]]
   name = "Etiketler"
   pageRef = "tags"
-  weight = 30
+  weight = 40
 
 
 # -- Footer Menu --
@@ -58,11 +58,11 @@
 # the copyright notice. Configure as per the main menu above.
 
 [[footer]]
-   name = "Katagoriler"
-   pageRef = "categories"
-   weight = 10
+  name = "Katagoriler"
+  pageRef = "categories"
+  weight = 10
 
 [[footer]]
-   name = "Etiketler"
-   pageRef = "tags"
-   weight = 20
+  name = "Etiketler"
+  pageRef = "tags"
+  weight = 20

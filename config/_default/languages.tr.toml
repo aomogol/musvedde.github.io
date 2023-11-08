@@ -7,17 +7,17 @@ title = "Müsvedde"
   displayName = "TR"
   isoCode = "tr"
   rtl = false
-  dateFormat = "2 Ocak 2006"
-  # logo = "img/logo.png"
-  # secondaryLogo = "img/secondary-logo.png"
-  # description = "My awesome website"
+  dateFormat = "2 January 2006"
+  logo = "img/logo.png"
+  secondaryLogo = "img/secondary-logo.png"
+  description = "Müsvedde - Adı üstünde"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [author]
    name = "Ahmet Önder Moğol"
    image = "img/blowfish_logo.png"
-   headline = "I'm only human"
-   bio = "A little bit about you"
+   headline = "Fani..."
+   bio = "Fani..."
 #   links = [
 #     { email = "mailto:hello@your_domain.com" },
 #     { link = "https://link-to-some-website.com/" },
