@@ -1,3 +1,14 @@
+---
+title: "Linux'ta Kullandığım Programlar"
+date: 2023-11-08
+author: Ahmet Önder Moğol
+url: /linux-kullandigim-programlar/
+#image: images/2023-thumbs/xxx.jpg
+categories:
+  - Linux
+tags: [Linux, Programlar, Arch]  
+draft: true
+---
 
-https://medium.com/@hsmnzaydn/arch-linux-nedir-yaz%C4%B1l%C4%B1mc%C4%B1-olarak-bilgisayara-neler-kuruyorum-1be0805ccdc8
+
 

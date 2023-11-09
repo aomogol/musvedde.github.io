@@ -15,7 +15,7 @@ enableCodeCopy = false
 # mainSections = ["section1", "section2"]
 # robots = ""
 
-disableImageOptimization = false
+disableImageOptimization = true
 
 defaultBackgroundImage = "image.jpg" # used as default for background images 
 defaultFeaturedImage = "image.jpg" # used as default for featured images in all articles
@@ -29,8 +29,8 @@ defaultFeaturedImage = "image.jpg" # used as default for featured images in all 
 
 [footer]
   showMenu = true
-  showCopyright = true
-  showThemeAttribution = true
+  showCopyright = false
+  showThemeAttribution = false
   showAppearanceSwitcher = true
   showScrollToTop = true
 
