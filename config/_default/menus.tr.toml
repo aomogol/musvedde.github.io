@@ -52,6 +52,11 @@
   pageRef = "tags"
   weight = 40
 
+[[main]]
+  name = "Hakkında"
+  pageRef = "about"
+  weight = 50
+
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
@@ -66,3 +71,8 @@
   name = "Etiketler"
   pageRef = "tags"
   weight = 20
+
+ [[footer]]
+   name = "Authors"
+   pageRef = "authors"
+   weight = 30

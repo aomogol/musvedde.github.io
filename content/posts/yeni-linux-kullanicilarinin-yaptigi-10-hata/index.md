@@ -1,12 +1,17 @@
 ---
 title: "Yeni Linux Kullanıcılarının Yaptığı En Önemli 10 Hata"
+summary: "Linux, Windows veya macOS kullanıcıları için ilginç bir deneyim olabilir. Temel bazı farklılıklar kafa karıştırıcı olabilir."
+description: "Linux, Windows veya macOS kullanıcıları için ilginç bir deneyim olabilir. Temel bazı farklılıklar kafa karıştırıcı olabilir."
+categories: [Linux]
+tags: [Linux, Networking, Arch, Debian, Ubuntu]  
 date: 2023-11-08
-author: Ahmet Önder Moğol
+draft: false
+#author: Ahmet Önder Moğol
 url: /yeni-linux-kullanicilarinin-yaptigi-10-hata/
 #image: images/2023-thumbs/xxx.jpg
-categories:
-  - Linux
-tags: [Linux, Networking]  
+authors:
+  - aomogol
+
 ---
 
 
@@ -22,7 +27,7 @@ Bu makalede tam olarak bunlara birkaç örnek vereceğiz.
 
 ## 1. Yanlış Donanım Seçmek
 
-![Yanlış Donanım](wrong-hardware.jpg)
+![Yanlış Donanım](img/wrong-hardware.jpg)
 Eğer zaten bir bilgisayarınız ya da dizüstü bilgisayarınız varsa ve Linux'u denemek istiyorsanız, herşeyiniz hazır demektir.
 
 Ancak Linux kullanmak istediğinizde donanım yapılandırmasını doğru yapmak çok önemlidir.
@@ -46,7 +51,7 @@ Ancak Linux'u denemeye karar vermeden önce donanım bileşenlerinizle uyumlulu�
 
 ## 2. Linux'un Ne Olduğunu Bilmemek
 
-![Linux Nedir](linux-nedir.jpg)
+![Linux Nedir](img/linux-nedir.jpg)
 
 Ubuntu gibi bir Linux dağıtımı kullanmanız önerilmiş olabilir. Bu yeni başlayanların nerdeyse çoğu için geçerlidir.
 
@@ -62,7 +67,7 @@ Ancak daha sonra Linux'u indirmeye ve kurmaya başladığınızda, Linux'un tek 
 
 Ve sonra Linux'un bir işletim sistemi değil, sadece bir **kernel** (çekirdek) olduğunu da öğreniyorsunuz.
 
-![image](cok-fazla-linux-surumu.jpg)
+![image](img/cok-fazla-linux-surumu.jpg)
 
 Daha fazla derine girmeden devam edelim. Bu detayşarı ilerki zamanlarda daha fazla detaylandıracak konuları açarız.
 
@@ -72,14 +77,18 @@ Umarım Linux'un ne olduğu hakkındaki konsepti anlamışsınızdır. Esas mese
 
 Eğer anladıysanız, bilmek istediğiniz bir sonraki şey sisteminiz ve kullanım durumunuz için doğru Linux dağıtımını seçmektir.
 
-![image](linux-distros.png)
+![image](img/linux-distros.png)
 
 Çoğu yeni Linux kullanıcısı gereksinimlerine uygun olmayan bir şey seçer ve hüsrana uğrar.
 
 Genelde yeni başlayanların zorluk çekmeden alışmasını sağlayan Linux dağıtımları:
 
 ***Ubuntu (veya Ubuntu çeşitleri)***
+
+***Arch Linux (Manjaro, EndeavourOS, ArcoLinux, XeroLinux)***
+
 ***Linux Mint***
+
 ***Pop!_OS***
 
 Tabiki çok daha fazla seçenek var, ama bir ısınma turu atmanın zararı olmaz.
@@ -110,7 +119,7 @@ Mesele şu ki, bir konuda net değilseniz, sorunsuz bir deneyim için Linux'u ku
 
 ## 5. Windows Olmadığını Fark Etmek
 
-![image](linux-windows.jpg)
+![image](img/linux-windows.jpg)
 
 Bazı kullanıcılar Windows alışkanlıkları ile aynı uygulamaların ya da şeylerin aynı şekilde çalışmasını beklerler.
 
@@ -122,7 +131,7 @@ Ancak, herkes için bir yedek değildir. Bu nedenle, bunu aklınızda tuttuktan 
 
 ## 6. Terminali Kullanmaktan Korkmak
 
-![image](terminal.png)
+![image](img/terminal.png)
 
 Terminal üzerinden herhangi bir komutu kullanmaktan çekinerek başlayacaksınız. Ancak ara sıra kullanmaya hazır olun (her gün kullanmanıza gerek yok).
 
@@ -175,7 +184,7 @@ Kişisel kullanım için bu büyük bir sorun olmamalıdır. Ancak, diğer platf
 
 ## 9.Topluluktan Yardım İstememek
 
-![image](linux-toplulugu.jpg)
+![image](img/linux-toplulugu.jpg)
 
 İnsanların Linux'u sevmesinin en önemli nedenlerinden biri topluluktur. Ama genelde bunu istemek ilk başlarda garip gelebilir.
 
@@ -187,7 +196,7 @@ Ben genelde Reddit başlıkları üzerinden takip ediyorum. Soruları ve sorunla
 
 ## 10. Çabuk Vazgeçmek
 
-![image](linux-memes.png)
+![image](img/linux-memes.png)
 
 Linux'u öğrenmek ve kullanmak için biraz çaba sarf etmeniz gerekir. Asla erken pes etmeyin. Sorunların üzerine alıştığınız şekilde gitmek yerine çözüm fazlası ile var.
 

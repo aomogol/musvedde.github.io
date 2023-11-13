@@ -13,11 +13,11 @@ title = "Müsvedde"
   description = "Müsvedde - Adı üstünde"
   # copyright = "Copy, _right?_ :thinking_face:"
 
-[author]
-   name = "Ahmet Önder Moğol"
-   image = "img/blowfish_logo.png"
-   headline = "Fani..."
-   bio = "Fani..."
+#[author]
+   #name = "Ahmet Önder Moğol"
+   #image = "img/blowfish_logo.png"
+   #headline = "Fani..."
+   #bio = "Fani..."
 #   links = [
 #     { email = "mailto:hello@your_domain.com" },
 #     { link = "https://link-to-some-website.com/" },
