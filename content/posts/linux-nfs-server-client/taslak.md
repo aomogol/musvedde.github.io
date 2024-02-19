@@ -7,7 +7,7 @@ url: /linux-nfs-server-client/
 categories:
   - Linux
 tags: [Linux, NFS, Arch, Debian, Ubuntu]  
-#draft: true
+draft: true
 ---
 
 
