@@ -25,47 +25,70 @@ Bu kılavuzda NFS sunucusunun ve istemcisinin Fedora, CentOS Stream, Rocky Linux
 NFS hizmeti , NFS Sunucusu ve istemcisinden oluşur . NFS sunucusu aşağıdaki anahtar dosyalardan oluşur:
 
 **nfs-server** – Bu, istemci sistemlerinin NFS ile paylaşılan dosyalara erişmesine olanak tanır.
+
 **rpcbind** – RPC programlarını evrensel adreslere dönüştürür.
+
 **nfs-idmap** – Kullanıcı ve grup kimliklerinin isimlere, kullanıcı ve grup adlarının kimliklere çevrilmesini gerçekleştirir.
+
 **portmap** – Bu, RPC program numaralarını IP bağlantı noktası numaralarına dönüştüren bir sunucudur.
+
 **nfslock** – NFS sunucusunun çökmesi durumunda nfslock gerekli RPC işlemlerini başlatır.
 
 ### NFS Yapılandırma Hizmetleri
 NFS için önemli yapılandırma dosyalarından bazıları şunlardır :
 
-/etc/exports – Uzak kullanıcılar tarafından dışa aktarılacak ve erişilecek dosya sistemlerini veya dizinleri belirleyen ana yapılandırma dosyası.
-/etc/fstab – Bu, monte edilmiş bölümlerin girişlerini içeren bir dosyadır. NFS'de dosya, kalıcı olarak bağlanan ve yeniden başlatmaya devam edebilen NFS paylaşım dizinlerinin veya dosya sistemlerinin girişlerini içerir.
-/etc/sysconfig/nfs – RPC hizmetlerinin çalıştırılması sırasında ihtiyaç duyulan bağlantı noktalarını tanımlar.
-NFS Sunucusu ve İstemci Kurulumu
+**/etc/exports** – Uzak kullanıcılar tarafından dışa aktarılacak ve erişilecek dosya sistemlerini veya dizinleri belirleyen ana yapılandırma dosyası.
+
+**/etc/fstab** – Bu, monte edilmiş bölümlerin girişlerini içeren bir dosyadır. NFS'de dosya, kalıcı olarak bağlanan ve yeniden başlatmaya devam edebilen NFS paylaşım dizinlerinin veya dosya sistemlerinin girişlerini içerir.
+
+**/etc/sysconfig/nfs** – RPC hizmetlerinin çalıştırılması sırasında ihtiyaç duyulan bağlantı noktalarını tanımlar.
+
+## NFS Sunucusu ve İstemci Kurulumu
 NFS paylaşımlarını kurmak için en az iki Linux / Unix makinesine ihtiyacımız olacak . Bu eğitimde iki sunucu kullanacağım.
 
-NFS Sunucusu – IP 10.128.15.213 ile RHEL 9
-NFS İstemcisi – IP 10.128.15.214 ile RHEL 9
-NFS'yi Sunucu ve İstemciye Yükleme
+**NFS Sunucusu – IP 10.128.15.213 ile RHEL 9**
+
+**NFS İstemcisi – IP 10.128.15.214 ile RHEL 9**
+
+## NFS'yi Sunucu ve İstemciye Yükleme
 Başlamak için her iki düğümde de ( NFS sunucusu ve istemci) oturum açmanız ve NFS hizmetlerini yüklemeniz gerekir. Öncelikle paket bilgilerini gösterildiği gibi güncelleyin. Aşağıdaki dnf komutu aynı zamanda tüm heyecan verici paketleri en son sürümlerine yükseltecektir.
 
 ```console
-$ sudo dnf update
+sudo dnf update
 ```
 Güncelleme tamamlandıktan sonra devam edin ve gerekli NFS hizmetlerini yükleyin.
 
-$ sudo dnf rpcbind nfs-utils -y'yi yükle
-NFS'yi Linux'a yükleyin
-NFS'yi Linux'a yükleyin
+```console
+sudo dnf install rpcbind nfs-utils -y
+```
+![alt text](image1.png)
+
+**NFS'yi Linux'a yükleyin**
+
 Bir sonraki adım, gösterildiği gibi NFS hizmetlerini etkinleştirmektir .
 
-$ sudo systemctl nfs sunucusunu etkinleştir
-$ sudo systemctl rpcbind'i etkinleştir
+```console
+sudo systemctl enable nfs-server
+sudo systemctl enable rpcbind
+```
+
 NFS hizmetlerini de başlattığınızdan emin olun .
 
-$ sudo systemctl nfs sunucusunu etkinleştir
-$ sudo systemctl rpcbind'i etkinleştir
+```console
+sudo systemctl enable nfs-server
+sudo systemctl enable rpcbind
+```
+
 Tüm NFS hizmetlerinin çalıştığını doğrulamak çok önemlidir .
 
-$ sudo systemctl durumu nfs sunucusu
-$ sudo systemctl durumu rpcbind
-NFS Durumunu Kontrol Edin
-NFS Durumunu Kontrol Edin
+```console
+$ sudo systemctl status nfs-server
+$ sudo systemctl status rpcbind
+```
+![alt text](image2.png)
+
+**NFS Durumunu Kontrol Edin**
+
 Gelen NFS servislerine izin verecek şekilde güvenlik duvarını da aşağıdaki gibi yapılandırmayı unutmayın .
 
 $ sudo güvenlik duvarı-cmd --permanent --add-service={nfs,rpc-bind,mountd}
