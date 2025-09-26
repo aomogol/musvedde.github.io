@@ -1,5 +1,5 @@
 ---
-title: "Her Sistem Yöneticisinin Bilmesi Gereken On NMAP Komutu"
+title: "Her Sistem Yöneticisinin Bilmesi Gereken 10 NMAP Komutu"
 date: 2023-10-06
 author: Ahmet Önder Moğol
 url: /nmap-kullanimi/
