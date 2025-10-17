@@ -7,6 +7,7 @@ url: /nmap-kullanimi/
 categories:
   - Linux
 tags: [Linux, Networking, NMAP]  
+draft: true
 ---
 # Her Sistem Yöneticisinin Bilmesi Gereken 10 NMAP Komutu
 
