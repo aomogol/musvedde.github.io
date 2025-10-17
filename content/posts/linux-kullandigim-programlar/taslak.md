@@ -7,8 +7,10 @@ url: /linux-kullandigim-programlar/
 categories:
   - Linux
 tags: [Linux, Programlar, Arch]  
-draft: true
+draft: false
 ---
 
+# Linux'ta Kullandığım Programlar
 
 
+![alt text](image1.png)
